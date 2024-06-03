@@ -1,0 +1,131 @@
+.bg-image{
+    background-image: url(./images/star_bg.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#title {
+    color: black;
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+#title-aboutus {
+    color: black;
+    font-weight: bold;
+    font-size: 5rem;
+    position: relative;
+    top: -50px;
+}
+.card {
+    --bs-card-spacer-y: 1rem;
+    --bs-card-spacer-x: 1rem;
+    --bs-card-title-spacer-y: 0.5rem;
+    --bs-card-title-color: ;
+    --bs-card-subtitle-color: ;
+    --bs-card-border-width: var(--bs-border-width);
+    --bs-card-border-color: var(--bs-border-color-translucent);
+    --bs-card-border-radius: var(--bs-border-radius);
+    --bs-card-box-shadow: ;
+    --bs-card-inner-border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
+    --bs-card-cap-padding-y: 0.5rem;
+    --bs-card-cap-padding-x: 1rem;
+    --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0.03);
+    --bs-card-cap-color: ;
+    --bs-card-height: ;
+    --bs-card-color: ;
+    --bs-card-bg: var(--bs-body-bg);
+    --bs-card-img-overlay-padding: 1rem;
+    --bs-card-group-margin: 0.75rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    height: 430px;
+    color: yellow;
+    word-wrap: break-word;
+    background-color: #21293D;
+    background-clip: border-box;
+    border: var(--bs-card-border-width) solid yellow;
+    border-radius: var(--bs-card-border-radius);
+}
+
+.btn-primary{
+    background-color: #21293D;
+    color: orange;
+    
+}
+
+.navlogo{
+    width: 100px;
+    height: 100px;
+}
+
+.navbar{
+    background-color: #21293D !important;
+    
+}
+.navbar-toggler{
+    background-color: aliceblue;
+}
+
+.nav-link{
+    color: aliceblue !important;
+    font-size: 1.5rem;
+    
+}
+
+.blogdesc{
+    color: aliceblue;
+    width: 60%;
+    font-size: 1.5rem;
+
+}
+.imgdesc{
+    width: 40%;
+    height: 95%;
+    border: 2px solid yellow;
+    border-radius: 30px;
+}
+
+.section1{
+    background-color: #21293D;
+}
+
+.footer{
+    height: 60px;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.h2desc{
+    color: yellow;
+}
+
+.detailimg{
+    border: 2px solid orange;
+    border-radius: 20px;
+    height: 500px;
+    width: 500px;
+}
+
+.desc {
+    border: 2px solid orange;
+    border-radius: 20px;
+    height: 500px;
+    width: 500px;
+    color: aliceblue;
+    background-color: #21293D;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
